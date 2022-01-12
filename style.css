@@ -132,11 +132,143 @@ nav ul li{
 
 #masterSong{
     margin-left: 10px;
-    margin-top: 1opx;
+    margin-top: 10px;
 }
 
-@media only screen and (max-width: 1100px) {
-    body {
-      background-color: red;
+@media only screen and (max-width: 700px) {
+    body{
+        background-color:silver;
     }
-  }
+    
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    nav ul{
+        display: flex;
+        list-style-type: none;
+        height: 60px;
+        align-items: center;
+        background-color: black;
+        color: white;
+    }
+    
+    nav ul li{
+       padding: 0 12px;
+    }
+    
+    .brand{
+        display: flex;
+        align-items: center;
+        font-weight: bolder;
+        font-size: 1.2rem;
+    }
+    
+    .brand img{
+        width: 44px;
+        padding: 0 8px;
+    }
+    
+    .container{
+        flex-direction: column;
+        font-family: 'Courier New', Courier, monospace;
+        align-items: left;
+        margin:10px auto;
+        padding: 20px;
+        color: white;
+        background-color: black;
+        min-height: 50vh;
+        width: 70%;
+        border-radius: 12px;
+        background-image: url('banner/3.jpg');
+    }
+    
+    .songItem{
+        color: black;
+        justify-content:center;
+        background-color: white;
+        width: 100%;
+        min-height: 50px;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 12px;
+    }
+    
+    .songItem img{
+        margin-top: 10px;
+        width: 30px;
+        height: 25px;
+    }
+    
+    .bottom{
+        position: sticky;
+        bottom: 0;
+        height: 100px;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+    }
+    
+    .bottom i{
+        margin-top: 8px;
+        cursor: pointer;
+    }
+    
+    .icons{
+        margin-top: 5px;
+    }
+    
+    .icons i{
+        margin-top: 50px;
+        cursor: pointer;
+    }
+    
+    .timestamp{
+        margin-top: auto;
+        float: right;
+        
+    }
+    
+    .timestamp i{
+        cursor: pointer;
+        float:right;
+        margin-top: 10px;
+        margin-bottom: 3px;
+        margin-right: 5px;
+    }
+    
+    .songItemContainer{
+        margin-top: 54px;
+    }
+    
+    .songInfo{
+        margin: 15px;
+        position: absolute;
+        left: 9vw;
+    }
+    
+    #gif{
+        margin-right:5px;
+        margin-top: 1px;
+        opacity: 0;
+        transition: opacity 0.4s ease-in;
+    }
+    
+    #progressBar{
+        width: 100%;
+        cursor: pointer;
+    }
+    
+    #masterSong{
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+}
