@@ -56,16 +56,31 @@ nav ul li{
 
 .songItem{
     color: black;
-    justify-content:center;
+    display: flex;
+    justify-content: space-between;
     background-color: white;
     width: 25vw;
-    margin: 5px;
-    padding: 5px;
-    border-radius: 12px;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.songName{
+    padding-top: 8px;
+    
+}
+
+.timestamp{
+    padding-top: 8px;
+    
+}
+
+.songItemPlay{
+    margin-top: auto;
 }
 
 .songItem img{
-    margin: auto auto;
+    margin: 5px 2px;
     width: 30px;
     height: 25px;
 }
