@@ -70,15 +70,6 @@ nav ul li{
     
 }
 
-.timestamp{
-    padding-top: 8px;
-    
-}
-
-.songItemPlay{
-    margin-top: auto;
-}
-
 .songItem img{
     margin: 5px 2px;
     width: 30px;
@@ -111,15 +102,16 @@ nav ul li{
 }
 
 .timestamp{
-    
     float: right;
-    margin-right: 20px;
+    padding-top: 8px;
+    margin-right: 0px;
 }
 
 .timestamp i{
     cursor: pointer;
     float:right;
-    margin-bottom: 3px;
+    padding-left: 8px;
+    margin-bottom: 5px;
     margin-right: 5px;
 }
 
